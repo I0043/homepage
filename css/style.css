@@ -51,7 +51,7 @@
 
 body {
   background: url('../images/back-pattern.png');
-  font-family: 'Droid Serif', serif;
+  font-family: "メイリオ","ＭＳ Ｐゴシック",'Droid Serif', serif;
 }
 
 #container {
@@ -69,7 +69,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Merriweather', serif;
+  font-family: "メイリオ","ＭＳ Ｐゴシック",'Merriweather', serif;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
@@ -5671,7 +5671,7 @@ ul.element-social-icons li a:hover {
 /* =  footer
 /*-------------------------------------------------*/
 footer {
-  background: #2f3032;
+  background: #2d7091;
 }
 footer .up-footer {
   padding: 84px 0 65px;
@@ -5812,7 +5812,7 @@ footer .up-footer .flickr-widget ul li a:hover {
 }
 .footer-line {
   padding: 20px 0;
-  background: #1f2021;
+  background: #255c78;
   border-top: 1px solid #535353;
 }
 .footer-line p {
