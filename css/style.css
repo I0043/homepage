@@ -51,7 +51,7 @@
 
 body {
   background: url('../images/back-pattern.png');
-  font-family: "メイリオ","ＭＳ Ｐゴシック",'Droid Serif', serif;
+  font-family: "メイリオ","Meiryo","ＭＳ Ｐゴシック","Hiragino Kaku Gothic Pro"," ヒラギノ角ゴ Pro W3",sans-serif,'Droid Serif', serif;
 }
 
 #container {
@@ -69,7 +69,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "メイリオ","ＭＳ Ｐゴシック",'Merriweather', serif;
+  font-family: "メイリオ","Meiryo","ＭＳ Ｐゴシック","Hiragino Kaku Gothic Pro"," ヒラギノ角ゴ Pro W3",sans-serif,'Merriweather', serif;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
