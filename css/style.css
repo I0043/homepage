@@ -5981,7 +5981,7 @@ footer .up-footer .flickr-widget ul li a:hover {
 }
 @media (max-width: 991px) {
   .navbar-nav > li > a {
-    padding: 40px 12px;
+    padding: 20px 12px;
   }
   .megadrop-down .dropdown ul {
     margin-bottom: 20px;
@@ -6478,3 +6478,7 @@ footer .up-footer .flickr-widget ul li a:hover {
     width: 100%;
   }
 }
+
+ .content-padding{
+   padding-top: 90px;
+ }
