@@ -1647,7 +1647,7 @@ button.mfp-arrow {
   display: none;
 }
 .about-section {
-  padding: 90px 0;
+  padding: 90px 0 0 0;
 }
 .about-section .image-place img {
   max-width: 100%;
@@ -6482,4 +6482,9 @@ footer .up-footer .flickr-widget ul li a:hover {
 
  .content-padding{
    padding-top: 50px;
+ }
+ @media (min-width: 768px) {
+ .dropdown:hover > .dropdown-menu {
+   display:block;
+   }
  }
