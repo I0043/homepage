@@ -378,6 +378,7 @@ website:    http://www.themepunch.com
 .navbar-nav > li > a:hover,
 .navbar-nav > li > a.active {
   color: #5AC8FB !important;
+  border-bottom: 3px solid #5AC8FB;
 }
 .navbar-nav a.open-search {
   padding-right: 15px;
