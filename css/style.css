@@ -373,7 +373,7 @@ website:    http://www.themepunch.com
   -moz-transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
-  padding: 40px 22px;
+  padding: 20px 22px;
 }
 .navbar-nav > li > a:hover,
 .navbar-nav > li > a.active {
@@ -6480,5 +6480,5 @@ footer .up-footer .flickr-widget ul li a:hover {
 }
 
  .content-padding{
-   padding-top: 90px;
+   padding-top: 50px;
  }
