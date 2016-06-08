@@ -77,7 +77,7 @@ h1, h2, h3, h4, h5, h6 {
 p {
   font-size: 14px;
   font-family: "ＭＳ Ｐゴシック","Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #666;
+  color: #FFFFFF;
   font-weight: 400;
   line-height: 28px;
   margin: 0 0 15px;
@@ -5770,7 +5770,7 @@ footer .up-footer .more-links-widget ul li {
   list-style: none;
   display: block;
   padding-bottom: 10px;
-  border-bottom: 1px solid #535353;
+  border-bottom: 1px solid #255C78;
   margin-bottom: 10px;
 }
 footer .up-footer .more-links-widget ul li a {
@@ -5821,7 +5821,7 @@ footer .up-footer .flickr-widget ul li a:hover {
   margin: 0;
 }
 .footer-line p span {
-  color: #cacaca;
+  color: #FFFFFF;
 }
 .footer-line ul.footer-menu {
   margin: 0;
@@ -5840,7 +5840,7 @@ footer .up-footer .flickr-widget ul li a:hover {
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   font-size: 13px;
-  color: #888888;
+  color: #FFFFFF;
   font-weight: 400;
   line-height: 24px;
   margin: 0 0 15px;
