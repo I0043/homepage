@@ -93,83 +93,96 @@
 				================================================== -->
 			<div class="content-padding hidden-xs"></div>
 					<div class="section-content page-banner-section">
-						<h1>採用情報</h1>
+						<h1>お問い合わせ</h1>
 						<ul>
 							<li><a href="#">Pages</a></li>
 							<li><a href="about-alt.html">About Us Alternative</a></li>
 						</ul>
 					</div>
-		
-			<!-- about-section
+
+			<!-- contact-section
 				================================================== -->
-				
-		<div class="section-content services-section">
+			<div class="section-content contact-section">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+						<form id="contact-form">
+							<table cellpadding="0" cellspacing="1" class="contact table">
+								<tr>
+									<td class="left">お名前<span class="kome">※</span></td>
+									<td><input name="name" type="text" id="name" size="50" /> 例：植田　太郎</td>
+								</tr>
+								<tr>
+									<td class="left">ふりがな<span class="kome">※</span></td>
+									<td><input name="kana" type="text" id="kana" size="50" /> 例：うえだ　たろう</td>
+								</tr>
+								<tr>
+									<td class="left">会社名<span class="kome">※</span></td>
+									<td><input name="org_name" type="text" id="org_name" size="50" /></td>
+								</tr>
+								<tr>
+									<td class="left">部署名<span class="kome">※</span></td>
+									<td><input name="dept_name" type="text" id="dept_name" size="50" /></td>
+								</tr>
+								<tr>
+									<td class="left">郵便番号<span class="kome">※</span></td>
+									<td><input name="zip_code" type="text" id="zip_code" size="20" /><br />半角入力でお願いします＞例：111-1111 </td>
+								</tr>
+								<tr>
+									<td class="left">ご住所<span class="kome">※</span></td>
+									<td><textarea name="address" id="address" rows="3" cols="52"></textarea><br />都道府県名から、ビル名、アパート/マンション名、号室等まで正確にご入力下さい。</td>
+								</tr>
+								<tr>
+									<td class="left">電話番号<span class="kome">※</span></td>
+									<td><input name="phone" type="text" id="phone" size="24" /><br />半角入力でお願いします＞例：03-1111-1111（市外局番から入力） </td>
+								</tr>
+								<tr>
+									<td class="left">FAX番号<span class="kome">※</span></td>
+									<td><input name="fax" type="text" id="fax" size="24" /><br />半角入力でお願いします＞例：03-1111-1111（市外局番から入力） </td>
+								</tr>
+								<tr>
+									<td class="left">メールアドレス<span class="kome">※</span></td>
+									<td><input name="e_mail" type="text" id="e_mail" size="50" /><br />半角入力でお願いします </td>
+								</tr>
+								<tr>
+									<td class="left">お問い合わせカテゴリ</td>
+										<td><select name="inp1" id="inp1">
+											<option value="" selected>選択してください</option>
+											<option value="資料請求">資料請求</option>
+											<option value="見積依頼">見積依頼</option>
+											<option value="その他">その他</option>
+										</select>
+									</td>
+								</tr>
+								<tr>
+									<td class="left">お問い合わせ内容</td>
+									<td><textarea name="inp2" id="inp2" rows="6" cols="52"></textarea></td>
+								</tr>
+						</table>
+						<div class="submit-area">
+							<input type="submit" id="submit_contact" value="Send Message">
+							<div id="msg" class="message"></div>								
+						</div>
+						</form>
+						<ul>
+							<li>お客様個人に関する情報(以下「個人情報」といいます)の取り扱いについて規定を定め、また、組織体制を整備し、個人情報の適切な保護に努めております。</li>
+							<li>お客様から個人情報を収集させて頂く場合は、収集目的、お客様に対する弊社の窓口を、お知らせしたうえで必要な範囲で個人情報を収集させて頂きます。</li>
+							<li>お客様の個人情報を収集目的の範囲内で利用するとともに、適切な方法で管理し、特段の事情がない限り、お客様のご承諾なく第三者に開示・提供することはありません。</li>
+							<li>お客様の個人情報は、正確かつ最新の状態に保ち、個人情報への不正アクセス、紛失、破損、改ざん及び漏洩等を防止するための措置を講じています。</li>
+							<li>弊社が、個人情報の処理を外部へ委託する場合には、漏洩や再提供を行わないよう契約により義務づけ、適切な管理を実施していきます。</li>
+							<li>委託元よりお預かりした個人情報は、厳正なる管理を行い契約の範囲内で利用します。</li>
+							<li>お客様が、お客様ご自身の情報の確認、訂正等を、希望される場合には、お客様に対する弊社窓口まで、ご連絡頂ければ、合理的な範囲ですみやかに対応させていただきます。</li>
+							<li>弊社が保有する個人情報に関して適用される法令、規範を遵守するとともに、上記各項における取り組み、及び、保護活動を維持、改善してまいります。</li>
+						</ul>
+						※個人情報保護方針に関するお問い合わせは【お問合せフォーム】からご連絡ください。<br />
+						このフォームに入力された情報は、お問い合わせの回答・カタログ請求のみに使用し、その後は破棄いたします。
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
-			<div class="container">
-				<div class="title-section">
-					<h1 class="text-left">採用情報</h1>
-				</div>
-				<div class="about-content">
-					<p>あなたの熱い想いを、植田酪農機工業で実現してください。</p>
-					<p>自分の能力やキャリアを活かし、新しいことにチャレンジして社会に貢献したい。そして、自分を成長させ、働きがい、生きがいをより実感したい。植田酪農機工業は、そんな熱い想いをもつ人を歓迎します。</p>
-				</div>
-			</div>
-		
-		<div class="section-content services-section">
-			<div class="container">
-				<div class="title-section">
-					<h1 class="text-left">当社の魅力</h1>
-				</div>
-				<div class="about-content">
-					<p>創業は1910年。当社は100年にわたる経験とノウハウを持つ食品用包装機械メーカーです。「植田酪農機工業」という社名は、創業当時にステンレス製ミルクタンクの製造をしていた名残ですが、創業から100年たった今も新しい機械にチャレンジし続けています。
-	当社は、液体食品充填機の分野において国内外で高いシェアを誇る四国化工機グループの一員です。四国化工機は牛乳パックに代表される三角屋根の紙容器に中身を充填する「紙容器成形充填機」において国内シェア約70％を誇るトップメーカーです。たとえ当社の社名は知らなくても、日頃皆さんもコンビニやスーパーで四国化工機グループの機械で生産された商品を手にされているはずです。四国化工機グループの機械で生産された紙パック商品は底面にロゴマークがエンボス加工されているので、ぜひ一度確認してみてください。
-	当社の包装機は四国化工機製の充填機とともに、日本の大手飲料メーカー、乳業メーカーだけではなく海外のお客様の工場で活躍しています。我々と一緒に世界を舞台にした「ものづくり」をしましょう！</p>
-				</div>
-			</div>
-		</div>
-		
-		<div class="section-content services-section">
-			<div class="container">
-				<div class="title-section">
-					<h1 class="text-left">求める人材</h1>
-				</div>
-				<div class="about-content">
-					<p>一つ上の目標に向かって常に自らのスキルを高めるための努力を惜しまず、自分自身を成長させ続けるチャレンジ精神旺盛な人。また、「出来ない理由よりも、取組む方法を考える」といったプラス思考な人物を求めています。
-					</p>
-					<p>自発的に目標に向かって活動できる人が多ければ、会社は成長し発展していくものです。与えられた仕事に対して、自分で考え、創意工夫・判断し、自発的な行動ができる人物を求めています。
-					</p>
-					<p>どんな状況でも、互いの存在価値を認め、意見を尊重し、一つの目的に向かって全員の考えをまとめあげ、相乗効果を生み出すことが出来る協調性とバランス感覚にすぐれた、人物を求めています。
-					</p>
-				</div>
-			</div>
-		</div>
-		
-		<div class="section-content services-section">
-			<div class="container">
-				<div class="title-section">
-					<h1 class="text-left">新卒採用情報</h1>
-				</div>
-			</div>
-		</div>
-		
-		<div class="section-content services-section">
-			<div class="container">
-				<div class="title-section">
-					<h1 class="text-left">中途採用情報</h1>
-				</div>
-			</div>
-		</div>
-		
-		<div class="section-content services-section">
-			<div class="container">
-				<div class="title-section">
-					<h1 class="text-left">採用FAQ</h1>
-				</div>
-			</div>
-		</div>
 
-		</div>
-		</div>
 		<!-- End content -->
 
 
@@ -280,6 +293,25 @@
 
 		</footer>
 		<!-- End footer -->
+	</div>
+	<!-- End Container -->
+	
+	<!-- Contents of register window -->
+	<div id="register-popup" class="mfp-hide white-popup">
+		<div class="some-element">
+			<h1>Element</h1>
+			<h2>Become a Member</h2>
+			<form class="become-member">
+				<div class="inner-form">
+					<label><i class="fa fa-envelope"></i></label>
+					<input type="text" placeholder="Email"/> <br>
+					<label><i class="fa fa-lock"></i></label>
+					<input type="password" placeholder="Password"/>
+				</div>
+				<a href="#" class="button-one">Continue</a>
+			</form>
+		</div>
+	</div>
 	
 	<script type="text/javascript" src="js/jquery.min.js"></script>
 	<script type="text/javascript" src="js/jquery.migrate.js"></script>
@@ -287,10 +319,10 @@
 	<script type="text/javascript" src="js/bootstrap.js"></script>
 	<script type="text/javascript" src="js/jquery.imagesloaded.min.js"></script>
 	
-	<script type="text/javascript" src="js/jquery.appear.js"></script>
-	<script type="text/javascript" src="js/jquery.countTo.js"></script>
 	<script type="text/javascript" src="js/plugins-scroll.js"></script>
 	<script type="text/javascript" src="js/waypoint.min.js"></script>
+  	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+	<script type="text/javascript" src="js/gmap3.min.js"></script>
 	<script type="text/javascript" src="js/script.js"></script>
 	
 </body>
