@@ -105,91 +105,64 @@
 			<div class="section-content contact-section">
 				<div class="container">
 					<div class="row">
-						<div class="col-md-12">
-						<form id="contact-form">
-							<table cellpadding="0" cellspacing="1" class="contact table">
-								<tr>
-									<td class="left">お名前<span class="kome">※</span></td>
-									<td><input name="name" type="text" id="name" size="50" /> 例：植田　太郎</td>
-								</tr>
-								<tr>
-									<td class="left">ふりがな<span class="kome">※</span></td>
-									<td><input name="kana" type="text" id="kana" size="50" /> 例：うえだ　たろう</td>
-								</tr>
-								<tr>
-									<td class="left">会社名<span class="kome">※</span></td>
-									<td><input name="org_name" type="text" id="org_name" size="50" /></td>
-								</tr>
-								<tr>
-									<td class="left">部署名<span class="kome">※</span></td>
-									<td><input name="dept_name" type="text" id="dept_name" size="50" /></td>
-								</tr>
-								<tr>
-									<td class="left">郵便番号<span class="kome">※</span></td>
-									<td><input name="zip_code" type="text" id="zip_code" size="20" /><br />半角入力でお願いします＞例：111-1111 </td>
-								</tr>
-								<tr>
-									<td class="left">ご住所<span class="kome">※</span></td>
-									<td><textarea name="address" id="address" rows="3" cols="52"></textarea><br />都道府県名から、ビル名、アパート/マンション名、号室等まで正確にご入力下さい。</td>
-								</tr>
-								<tr>
-									<td class="left">電話番号<span class="kome">※</span></td>
-									<td><input name="phone" type="text" id="phone" size="24" /><br />半角入力でお願いします＞例：03-1111-1111（市外局番から入力） </td>
-								</tr>
-								<tr>
-									<td class="left">FAX番号<span class="kome">※</span></td>
-									<td><input name="fax" type="text" id="fax" size="24" /><br />半角入力でお願いします＞例：03-1111-1111（市外局番から入力） </td>
-								</tr>
-								<tr>
-									<td class="left">メールアドレス<span class="kome">※</span></td>
-									<td><input name="e_mail" type="text" id="e_mail" size="50" /><br />半角入力でお願いします </td>
-								</tr>
-								<tr>
-									<td class="left">お問い合わせカテゴリ</td>
-										<td><select name="inp1" id="inp1">
-											<option value="" selected>選択してください</option>
-											<option value="資料請求">資料請求</option>
-											<option value="見積依頼">見積依頼</option>
-											<option value="その他">その他</option>
-										</select>
-									</td>
-								</tr>
-								<tr>
-									<td class="left">お問い合わせ内容</td>
-									<td><textarea name="inp2" id="inp2" rows="6" cols="52"></textarea></td>
-								</tr>
-						</table>
-						<div class="submit-area">
-							<input type="submit" id="submit_contact" value="Send Message">
-							<div id="msg" class="message"></div>								
+						<div class="col-md-9">
+							<form id="contact-form">
+								<h2>お問い合わせ</h2>
+								<div class="row">
+									<div class="col-md-6">
+										<input name="name" id="name" type="text" placeholder="Name">
+									</div>
+									<div class="col-md-6">
+										<input name="mail" id="mail" type="text" placeholder="Email">
+									</div>
+								</div>
+								<textarea name="comment" id="comment" placeholder="Message"></textarea>
+								<div class="submit-area">
+									<input type="submit" id="submit_contact" value="Send Message">
+									<div id="msg" class="message"></div>								
+								</div>
+							</form>
 						</div>
-						</form>
-						<ul>
-							<li>お客様個人に関する情報(以下「個人情報」といいます)の取り扱いについて規定を定め、また、組織体制を整備し、個人情報の適切な保護に努めております。</li>
-							<li>お客様から個人情報を収集させて頂く場合は、収集目的、お客様に対する弊社の窓口を、お知らせしたうえで必要な範囲で個人情報を収集させて頂きます。</li>
-							<li>お客様の個人情報を収集目的の範囲内で利用するとともに、適切な方法で管理し、特段の事情がない限り、お客様のご承諾なく第三者に開示・提供することはありません。</li>
-							<li>お客様の個人情報は、正確かつ最新の状態に保ち、個人情報への不正アクセス、紛失、破損、改ざん及び漏洩等を防止するための措置を講じています。</li>
-							<li>弊社が、個人情報の処理を外部へ委託する場合には、漏洩や再提供を行わないよう契約により義務づけ、適切な管理を実施していきます。</li>
-							<li>委託元よりお預かりした個人情報は、厳正なる管理を行い契約の範囲内で利用します。</li>
-							<li>お客様が、お客様ご自身の情報の確認、訂正等を、希望される場合には、お客様に対する弊社窓口まで、ご連絡頂ければ、合理的な範囲ですみやかに対応させていただきます。</li>
-							<li>弊社が保有する個人情報に関して適用される法令、規範を遵守するとともに、上記各項における取り組み、及び、保護活動を維持、改善してまいります。</li>
-						</ul>
-						※個人情報保護方針に関するお問い合わせは【お問合せフォーム】からご連絡ください。<br />
-						このフォームに入力された情報は、お問い合わせの回答・カタログ請求のみに使用し、その後は破棄いたします。
+						<div class="col-md-3">
+							<div class="contact-information">
+								<h2>Contact Info</h2>
+								<ul class="information-list">
+									<li><i class="fa fa-map-marker"></i><span>1400 Defense Pentagon, Arlington County, Virginia, United States</span></li>
+									<li><i class="fa fa-phone"></i><span>+1 703-697-1776</span><span>+1 605-315-8544</span></li>
+									<li><i class="fa fa-envelope-o"></i><a href="#">nunforest@gmail.com</a></li>
+								</ul>
+								<ul class="social-list">
+									<li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+									<li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+									<li><a class="rss" href="#"><i class="fa fa-rss"></i></a></li>
+									<li><a class="google" href="#"><i class="fa fa-google-plus"></i></a></li>
+									<li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+									<li><a class="pinterest" href="#"><i class="fa fa-pinterest"></i></a></li>
+								</ul>
+							</div>
+						</div>
+
 					</div>
 				</div>
 			</div>
+
+			<!-- banner-text2-section
+				================================================== -->
+			<div class="section-content banner-text2-section">
+				<div class="container">
+					<h1>We are always happy to hear you <a href="#">Get in touch</a></h1>					
+				</div>
+			</div>
 		</div>
-	</div>
 
-
+		</div>
 		<!-- End content -->
 
 
 		<!-- footer 
 			================================================== -->
 		<footer>
-			<div class="up-footer hidden-xs">
+			<div class="up-footer">
 				<div class="container">
 					<div class="row">
 
@@ -210,7 +183,7 @@
 								<h2>事業紹介</h2>
 								<ul>
 									<li><a href="business.html">事業紹介</a></li>
-									<li><a href="business.html">エンジニアリング</a></li>
+									<li><a href="business.html"">エンジニアリング</a></li>
 								</ul>
 							</div>
 						</div>
