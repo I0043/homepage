@@ -12,17 +12,50 @@
 
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,700,600,300' rel='stylesheet' type='text/css'>
 
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.css" media="screen">
-	<link rel="stylesheet" type="text/css" href="css/magnific-popup.css" media="screen">	
-	<link rel="stylesheet" type="text/css" href="css/font-awesome.css" media="screen">
-	<link rel="stylesheet" type="text/css" href="css/icomoon.css" media="screen">
-	<link rel="stylesheet" type="text/css" href="css/animate.css" media="screen">
-	<link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="../common/css/bootstrap.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="../common/css/magnific-popup.css" media="screen">	
+	<link rel="stylesheet" type="text/css" href="../common/css/font-awesome.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="../common/css/icomoon.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="../common/css/animate.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="../common/css/style.css" media="screen">
+	
+	<script language="JavaScript" type="text/javascript" src="../static/wad/js/common.js" charset="UTF-8"></script>
+<script language="JavaScript" type="text/javascript" src="../static/wad/js/ajax.js" charset="UTF-8"></script>
+<script language="JavaScript" type="text/javascript" src="../static/wad/js/formcgi/initialize.js" charset="UTF-8"></script>
+<script language="JavaScript" type="text/javascript" src="../static/wad/js/formcgi/formcgi.js" charset="UTF-8"></script>
+	
+<script language="JavaScript" type="text/javascript">
+<!-- 
+function onloadProc()
+{
+	_relativePath = "../";
+	restoreForm();
+}
+
+function validate()
+{
+	var frm = document.form1;
+
+	if (!checkInputValue(frm.name, "氏名")) return false;
+	if (!checkInputValue(frm.kana, "フリガナ")) return false;
+	if (!checkInputValue(frm.org_name, "組織名")) return false;
+	if (!checkInputValue(frm.dept_name, "部署名")) return false;
+	if (!checkInputValue(frm.zip_code, "郵便番号")) return false;
+	if (!checkInputValue(frm.address, "住所")) return false;
+	if (!checkInputValue(frm.phone, "電話番号")) return false;
+	if (!checkInputValue(frm.fax, "ＦＡＸ番号")) return false;
+	if (!checkInputValue(frm.e_mail, "メールアドレス")) return false;
+
+	return true;
+}
+
+// -->
+</script>
 
 
 </head>
 <body>
-	<div class="container">
+	<div id="container" class="active">
 
 		<!-- Header================================================== -->
 		<header class="clearfix">
@@ -35,54 +68,52 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand visible-lg visible-md visible-xs hidden-sm" href="index.html"><img alt="" src="images/logo.gif"></a>
-						<!--<a class="navbar-brand visible-sm" href="index.html"><img alt="" src="images/logo_only.gif"></a>-->
-						<a class="navbar-brand hidden-lg hidden-md hidden-xs" href="index.html"><img alt="" src="images/logo190.gif"></a>
-						<a class="navbar-brand hidden-xs" href="#"><img src="images/txt_h1.png"></a>
+						<a class="navbar-brand visible-lg visible-md visible-xs hidden-sm" href="index.html"><img alt="" src="../images/logo.gif"></a>
+						<!--<a class="navbar-brand visible-sm" href="index.html"><img alt="" src="../images/logo_only.gif"></a>-->
+						<a class="navbar-brand hidden-lg hidden-md hidden-xs" href="index.html"><img alt="" src="../images/logo190.gif"></a>
+						<a class="navbar-brand hidden-xs" href="#"><img src="../images/txt_h1.png"></a>
 					</div>
 					<div class="navbar-collapse collapse">
 						<ul class="nav navbar-nav navbar-right">
                             <li class="drop drop-down"><a href="index.html" class="active">ホーム</a></li>
-							<li class="drop"><a href="company.html">会社案内</a></li>
-                            <li class="drop"><a href="business.html">事業紹介</a></li>
+							<li class="drop"><a href="../company/company.html">会社案内</a></li>
+                            <li class="drop"><a href="../business/business.html">事業紹介</a></li>
                             <li class="dropdown w3_megamenu-fw"><a href="#" data-toggle="dropdown" class="doropdown-toggle">製品情報 <i class="fa fa-angle-down fa-lg"></i></a>
 								<ul class="dropdown-menu fullwidth">
 									<li class="w3_megamenu-content">
 										<div class="row">
 											<div class="col-sm-2 col-sm-offset-1">
-												<img src="images/dev2.png" width="150">
-												<h2><a href="product_housouki.html">包装機</a></h2>
+												<img src="../images/dev2.png" width="150">
+												<h2><a href="../products/product_housouki.html">包装機</a></h2>
 											</div>
 											<div class="col-sm-2">
-												<img src="images/dev2.png" width="150">
-												<h2><a href="product_robot.html">ロボット</a></h2>
+												<img src="../images/dev2.png" width="150">
+												<h2><a href="../products/product_robot.html">ロボット</a></h2>
 											</div>
 											<div class="col-sm-2">
-												<img src="images/dev2.png" width="150">
-												<h2><a href="product_kamicup.html">紙カップ用成型機</a></h2>
+												<img src="../images/dev2.png" width="150">
+												<h2><a href="../products/product_kamicup.html">紙カップ用成型機</a></h2>
 											</div>
 											<div class="col-sm-2">
-												<img src="images/dev2.png" width="150">
-												<h2><a href="product_uhm.html">容器充填シール機</a></h2>
+												<img src="../images/dev2.png" width="150">
+												<h2><a href="../products/product_uhm.html">容器充填シール機</a></h2>
 											</div>
 											<div class="col-sm-2">
-												<img src="images/dev2.png" width="150">
-												<h2><a href="product_other.html">その他機械</a></h2>
+												<img src="../images/dev2.png" width="150">
+												<h2><a href="../products/product_other.html">その他機械</a></h2>
 											</div>
 										</div>
 									</li>
 								</ul>
 							</li>
-							<li class="drop"><a href="recruit.html">採用情報</a></li>
-							<li class="drop"><a href="access.html">アクセス</a></li>
-							<li class="drop"><a href="contact.html">お問い合わせ</a></li>
+							<li class="drop"><a href="../recruit/recruit.html">採用情報</a></li>
+							<li class="drop"><a href="../access/access.html">アクセス</a></li>
+							<li class="drop"><a href="../contact/contact.html">お問い合わせ</a></li>
 						</ul>
 					</div>
 				</div>
 			</nav>
-			<<pseudo:after>></<pseudo:after>>
 		</header>
-	</div>
 		<!-- End Header -->
 
 		<!-- content 
@@ -91,12 +122,11 @@
 
 			<!-- page-banner-section
 				================================================== -->
-			<div class="content-padding hidden-xs"></div>
 					<div class="section-content page-banner-section">
 						<h1>お問い合わせ</h1>
 						<ul>
-							<li><a href="#">Pages</a></li>
-							<li><a href="about-alt.html">About Us Alternative</a></li>
+							<li><a href="index.html">ホーム</a></li>
+							<li><a href="about-alt.html">お問い合わせ</a></li>
 						</ul>
 					</div>
 
@@ -159,10 +189,15 @@
 									<td><textarea name="inp2" id="inp2" rows="6" cols="52"></textarea></td>
 								</tr>
 						</table>
-						<div class="submit-area">
+						
+						<div class="table_btn"><input type="reset" value="リセット"><input type="submit" value="&nbsp;&nbsp;次へ&nbsp;&nbsp;">&nbsp;&nbsp;</div>
+						<input type="hidden" name="load_datafile" value="37104f9796b0c7049">
+						<input type="hidden" name="domain" value="ueraku.co.jp">
+						
+						<!--<div class="submit-area">
 							<input type="submit" id="submit_contact" value="Send Message">
 							<div id="msg" class="message"></div>								
-						</div>
+						</div> -->
 						</form>
 						<ul>
 							<li>お客様個人に関する情報(以下「個人情報」といいます)の取り扱いについて規定を定め、また、組織体制を整備し、個人情報の適切な保護に努めております。</li>
@@ -180,6 +215,7 @@
 				</div>
 			</div>
 		</div>
+	</div>
 	</div>
 
 
