@@ -18,7 +18,49 @@
 	<link rel="stylesheet" type="text/css" href="../common/css/icomoon.css" media="screen">
 	<link rel="stylesheet" type="text/css" href="../common/css/animate.css" media="screen">
 	<link rel="stylesheet" type="text/css" href="../common/css/style.css" media="screen">
+	<!-- THE SCRIPT INITIALISATION -->
+	<!-- LOOK THE DOCUMENTATION FOR MORE INFORMATIONS -->
+	<script type="text/javascript">
 
+		var revapi;
+
+		jQuery(document).ready(function() {
+
+			   revapi = jQuery('.tp-banner').revolution(
+				{
+					delay:6000,
+					startwidth:1140,
+					startheight:480,
+					hideThumbs:10,
+					fullWidth:"on",
+					forceFullWidth:"on",
+					onHoverStop:"off",
+					navigationType:"none",
+					soloArrowLeftHOffset:30,
+					soloArrowRightHOffset:30
+				});
+
+		});
+
+	</script>
+	<!-- END REVOLUTION SLIDER -->
+	<script type="text/javascript" src="../common/js/jquery.min.js"></script>
+	<script type="text/javascript" src="../common/js/jquery.migrate.js"></script>
+	<script type="text/javascript" src="../common/js/jquery.magnific-popup.min.js"></script>
+	<script type="text/javascript" src="../common/js/bootstrap.js"></script>
+	<script type="text/javascript" src="../common/js/jquery.imagesloaded.min.js"></script>
+	<script type="text/javascript" src="../common/js/jquery.appear.js"></script>
+	<script type="text/javascript" src="../common/js/jquery.countTo.js"></script>
+	<script type="text/javascript" src="../common/js/plugins-scroll.js"></script>
+	<script type="text/javascript" src="../common/js/waypoint.min.js"></script>
+	<script type="text/javascript" src="../common/js/script.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="../common/js/slideshow_caser.js"></script>
+    <script type="text/javascript" src="../common/js/slideshow_robot.js"></script>
+    <script type="text/javascript" src="../common/js/slideshow_kamicup.js"></script>
+    <script type="text/javascript" src="../common/js/slideshow_zyuuten.js"></script>
+    <script type="text/javascript" src="../common/js/slideshow_conveyor.js"></script>
+    <script type="text/javascript" src="../common/js/script.js"></script>
 
 </head>
 <body>
@@ -35,9 +77,9 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand visible-lg visible-md visible-xs hidden-sm" href="index.html"><img alt="" src="../images/logo.gif"></a>
+						<a class="navbar-brand visible-lg visible-md visible-xs hidden-sm" href="../index.html"><img alt="" src="../images/logo.gif"></a>
 						<!--<a class="navbar-brand visible-sm" href="index.html"><img alt="" src="../images/logo_only.gif"></a>-->
-						<a class="navbar-brand hidden-lg hidden-md hidden-xs" href="index.html"><img alt="" src="../images/logo190.gif"></a>
+						<a class="navbar-brand hidden-lg hidden-md hidden-xs" href="../index.html"><img alt="" src="../images/logo190.gif"></a>
 						<a class="navbar-brand hidden-xs" href="#"><img src="../images/txt_h1.png"></a>
 					</div>
 					<div class="navbar-collapse collapse">
@@ -50,23 +92,47 @@
 									<li class="w3_megamenu-content">
 										<div class="row">
 											<div class="col-sm-2 col-sm-offset-1">
-												<img src="../images/dev2.png" width="150">
+											 	<p id="caser_slide">
+													<img src="../images/caser-1.png" class="active">
+													<img src="../images/caser-2.png">
+													<img src="../images/caser-3.png">
+											 	</p>
 												<h2><a href="../products/product_housouki.html">包装機</a></h2>
 											</div>
 											<div class="col-sm-2">
-												<img src="../images/dev2.png" width="150">
+												<p id="robot_slide">
+													<img src="../images/robot1.png" class="active">
+													<img src="../images/robot2.png">
+													<img src="../images/robot3.png">
+												</p>
 												<h2><a href="../products/product_robot.html">ロボット</a></h2>
 											</div>
 											<div class="col-sm-2">
-												<img src="../images/dev2.png" width="150">
+												<p id="kamicup_slide">
+													<img src="../images/kamicup1.png" class="active">
+													<img src="../images/kamicup2.png">
+													<img src="../images/kamicup3.png">
+													<img src="../images/kamicup4.png">
+											 	</p>
 												<h2><a href="../products/product_kamicup.html">紙カップ用成型機</a></h2>
 											</div>
 											<div class="col-sm-2">
-												<img src="../images/dev2.png" width="150">
+												<p id="zyuuten_slide">
+													<img src="../images/zyuuten1.png" class="active">
+													<img src="../images/zyuuten2.png">
+													<img src="../images/zyuuten3.png">
+													<img src="../images/zyuuten4.png">
+													<img src="../images/kamicup3.png">
+											 	</p>
 												<h2><a href="../products/product_uhm.html">容器充填シール機</a></h2>
 											</div>
 											<div class="col-sm-2">
-												<img src="../images/dev2.png" width="150">
+												<p id="conveyor_slide">
+													<img src="../images/conveyor1.png" class="active">
+													<img src="../images/conveyor2.png">
+													<img src="../images/conveyor3.png">
+													<img src="../images/conveyor4.png">
+												</p>
 												<h2><a href="../products/product_other.html">その他機械</a></h2>
 											</div>
 										</div>
@@ -417,13 +483,13 @@
 						</div>
 						<div class="col-md-6">
 							<ul class="footer-menu">
-								<li><a href="index.html">ホーム</a></li>
-								<li><a href="company.html">会社案内</a></li>
-								<li><a href="business.html">事業紹介</a></li>
-								<li><a href="product.html">製品情報</a></li>
-								<li><a href="recruit.html">採用情報</a></li>
-								<li><a href="access.html">アクセス</a></li>
-								<li><a href="contact.html">お問い合わせ</a></li>
+								<li><a href="../index.html">ホーム</a></li>
+								<li><a href="../company/company.html">会社案内</a></li>
+								<li><a href="../business/business.html">事業紹介</a></li>
+								<li><a href="../products/product.html">製品情報</a></li>
+								<li><a href="../recruit/recruit.html">採用情報</a></li>
+								<li><a href="../access/access.html">アクセス</a></li>
+								<li><a href="../contact/contact.html">お問い合わせ</a></li>
 							</ul>
 						</div>						
 					</div>					
@@ -436,32 +502,7 @@
 	
 	
 
-	<!-- THE SCRIPT INITIALISATION -->
-	<!-- LOOK THE DOCUMENTATION FOR MORE INFORMATIONS -->
-	<script type="text/javascript">
 
-		var revapi;
-
-		jQuery(document).ready(function() {
-
-			   revapi = jQuery('.tp-banner').revolution(
-				{
-					delay:6000,
-					startwidth:1140,
-					startheight:480,
-					hideThumbs:10,
-					fullWidth:"on",
-					forceFullWidth:"on",
-					onHoverStop:"off",
-					navigationType:"none",
-					soloArrowLeftHOffset:30,
-					soloArrowRightHOffset:30
-				});
-
-		});
-
-	</script>
-	<!-- END REVOLUTION SLIDER -->
 	
 </body>
 
