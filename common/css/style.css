@@ -1717,15 +1717,15 @@ button.mfp-arrow {
   margin-bottom: 30px;
 }
 .blog-section .blog-box .blog-post .blog-gal img {
-  width: 100%;
+  width: 187px;
 }
 .blog-section .blog-box .blog-post .blog-gal .blog-hover {
   position: absolute;
   top: 0;
   left: 0;
   background: rgba(90, 200, 251, 0.85);
-  width: 100%;
-  height: 100%;
+  /*width: 100%;*/
+  /*height: 100%;*/
   opacity: 0;
   transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
@@ -6605,4 +6605,35 @@ footer .up-footer .flickr-widget ul li a:hover {
 }
 #conveyor_slide img.last-active {
    z-index: 9;
+}
+.strong_pp {
+	font-weight:bold;
+	color:#5b5bae;
+	font-size:14px;
+}
+.recruit_img {
+	text-align:center;
+	padding-bottom:20px;
+}
+.mb20 {margin-bottom:20px;}
+.question,
+.answer{
+	padding-left:18px;
+}
+.mt30 {margin-top:30px;}
+.question{
+	background:url("../../recruit/img/txt_q.gif") no-repeat left center transparent;
+	margin-bottom:5px;
+	font-weight:bold;
+	color:#d32b2b;
+}
+.answer{
+	background:url("../../recruit/img/txt_a.gif") no-repeat left 1px transparent;
+	margin-bottom:2px;
+}
+.strong {
+	font-weight:bold;
+}
+.kome {
+	color:#ff0000;
 }

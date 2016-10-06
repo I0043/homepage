@@ -1,0 +1,76 @@
+ul {
+	padding: 0;
+}
+.box .left {
+	float:left;
+	width:320px;
+	margin-right:20px;
+}
+.box .right {
+	float:left;
+	width:320px;
+}
+.box .left .txt,
+.box .right .txt {
+	float:left;
+	width:180px;
+	margin-top:10px;
+}
+.box .left .pic,
+.box .right .pic {
+	float:right;
+	margin-top:10px;
+	text-align:right;
+}
+.box .left .pic img,
+.box .right .pic img {
+	margin-bottom:5px;
+}
+
+.box dl{
+	clear:both;
+	padding:0px 10px;
+	border-bottom:1px dotted #cccccc;
+	width:640px;
+	overflow:hidden;
+}
+.box dl dt{
+	color:#5b5bae;
+	width:90px;
+	float:left;
+	padding:15px 0 10px 0;
+}
+.box dl dd{
+	width:530px;
+	float:right;
+	padding:15px 0 10px 0;
+}
+.box .company_pic {
+	float:left;
+	margin-right:10px;
+	padding-bottom:20px;
+}
+.box .company_txt {
+	float:left;
+	width:467px;
+	height:126px;
+}
+.box .company_txt .txt{
+	height:86px;
+}
+.box .company_txt ul li {
+	float:left;
+	list-style:none;
+}
+.box .company_txt ul li.mr {
+	margin-right:10px;
+	margin-bottom:10px;
+}
+.clearfix:after { 
+/*for modern browser*/
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
