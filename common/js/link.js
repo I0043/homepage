@@ -3,7 +3,7 @@
 			
 	var headerHight = 135; 
 				
-		$('[href*=#]').click(function(event){  //href属性に#が含まれている要素をクリックした時
+		$('[li.panel-body > a').click(function(event){  //href属性に#が含まれている要素をクリックした時
 			
 			var element = $(this);
 			var elementHref = element.attr('href');
@@ -16,8 +16,8 @@
                                     var position = target.offset().top-headerHight; //ヘッダの高さ分位置をずらす
                                         $("html, body").animate({scrollTop:position}, 550, "swing");
                                    return false;
-			
-			}else {  //それ以外の場合
+			}
+			else {  //それ以外の場合
 	
 				var hrefSplit = elementHref.split(/#/);  //href属性を"#"の前後で分割し、配列にする
 				var hrefFirst = hrefSplit[0];  //#より前の文字列をhrefFirst
@@ -73,7 +73,7 @@
 			var urlSplit = url.split(/\?id=/);
 			var anchorLink = '#' + urlSplit[urlSplit.length -1];
 			var anchorLinkTop = $(anchorLink).offset().top-headerHight;
-			$('html,body')..animate({scrollTop:position}, 550, "swing");
+			$('html,body').animate({scrollTop:anchorLinkTop}, 550, "swing");
 			
 		}
  

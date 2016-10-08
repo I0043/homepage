@@ -1598,9 +1598,9 @@ pre code {
     width: 970px;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1210px) {
   .container {
-    width: 1170px;
+    width: 1210px;
   }
 }
 .container-fluid {
@@ -4252,17 +4252,27 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     border-radius: 0;
   }
 }
+@media (max-width: 1209px) {
 .navbar-fixed-top,
 .navbar-fixed-bottom {
   position: fixed;
   right: 0;
   left: 0;
   z-index: 1030;
+  }
 }
 @media (min-width: 768px) {
   .navbar-fixed-top,
   .navbar-fixed-bottom {
     border-radius: 0;
+  }
+}
+@media (min-width: 1210px) {
+  .navbar-fixed-top,
+  .navbar-fixed-bottom {
+  position: fixed;
+  z-index: 1030;
+  width:1210px;
   }
 }
 .navbar-fixed-top {
