@@ -6531,6 +6531,25 @@ footer .up-footer .flickr-widget ul li a:hover {
 #caser_slide img.last-active {
    z-index: 9;
 }
+#contents_caser {
+   position: relative;
+   width:  150px;
+   height: 150px;
+}
+#contents_caser img {
+   position: absolute;
+   top: 0;
+   left:0;
+   z-index: 8;
+   opacity: 0.0;
+}
+#contents_caser img.active {
+   z-index: 10;
+   opacity: 1.0;
+}
+#contents_caser img.last-active {
+   z-index: 9;
+}
 #robot_slide {
    position: relative;
    width:  150px;
@@ -6549,7 +6568,27 @@ footer .up-footer .flickr-widget ul li a:hover {
 }
 #robot_slide img.last-active {
    z-index: 9;
-}#kamicup_slide {
+}
+#contents_robot {
+   position: relative;
+   width:  150px;
+   height: 150px;
+}
+#contents_robot img {
+   position: absolute;
+   top: 0;
+   left:0;
+   z-index: 8;
+   opacity: 0.0;
+}
+#contents_robot img.active {
+   z-index: 10;
+   opacity: 1.0;
+}
+#contents_robot img.last-active {
+   z-index: 9;
+}
+#kamicup_slide {
    position: relative;
    width:  150px;
    height: 150px;
@@ -6566,6 +6605,25 @@ footer .up-footer .flickr-widget ul li a:hover {
    opacity: 1.0;
 }
 #kamicup_slide img.last-active {
+   z-index: 9;
+}
+#contents_kamicup {
+   position: relative;
+   width:  150px;
+   height: 150px;
+}
+#contents_kamicup img {
+   position: absolute;
+   top: 0;
+   left:0;
+   z-index: 8;
+   opacity: 0.0;
+}
+#contents_kamicup img.active {
+   z-index: 10;
+   opacity: 1.0;
+}
+#contents_kamicup img.last-active {
    z-index: 9;
 }
 #zyuuten_slide {
@@ -6587,6 +6645,25 @@ footer .up-footer .flickr-widget ul li a:hover {
 #zyuuten_slide img.last-active {
    z-index: 9;
 }
+#contents_zyuuten {
+   position: relative;
+   width:  150px;
+   height: 150px;
+}
+#contents_zyuuten img {
+   position: absolute;
+   top: 0;
+   left:0;
+   z-index: 8;
+   opacity: 0.0;
+}
+#contents_zyuuten img.active {
+   z-index: 10;
+   opacity: 1.0;
+}
+#contents_zyuuten img.last-active {
+   z-index: 9;
+}
 #conveyor_slide {
    position: relative;
    width:  150px;
@@ -6604,6 +6681,25 @@ footer .up-footer .flickr-widget ul li a:hover {
    opacity: 1.0;
 }
 #conveyor_slide img.last-active {
+   z-index: 9;
+}
+#contents_conveyor {
+   position: relative;
+   width:  150px;
+   height: 150px;
+}
+#contents_conveyor img {
+   position: absolute;
+   top: 0;
+   left:0;
+   z-index: 8;
+   opacity: 0.0;
+}
+#contents_conveyor img.active {
+   z-index: 10;
+   opacity: 1.0;
+}
+#contents_conveyor img.last-active {
    z-index: 9;
 }
 .strong_pp {
@@ -6636,4 +6732,9 @@ footer .up-footer .flickr-widget ul li a:hover {
 }
 .kome {
 	color:#ff0000;
+}
+.orange {
+	padding: 0;
+	margin: 0 0 0 0.5em;
+	list-style: url('../img/ecalic036_004.gif') inside circle;
 }
