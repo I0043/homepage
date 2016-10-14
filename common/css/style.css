@@ -375,10 +375,12 @@ website:    http://www.themepunch.com
   -o-transition: all 0.2s ease-in-out;
   padding: 20px 22px;
 }
-.navbar-nav > li > a:hover,
-.navbar-nav > li > a.active {
+.navbar-nav > li > a:hover {
   color: #5AC8FB !important;
   border-bottom: 3px solid #5AC8FB;
+}
+.navbar-nav > li > a.active {
+  color: #5AC8FB !important;
 }
 .navbar-nav a.open-search {
   padding-right: 15px;
@@ -6738,7 +6740,48 @@ footer .up-footer .flickr-widget ul li a:hover {
 	margin: 0 0 0 0.5em;
 	list-style: url('../img/ecalic036_004.gif') inside circle;
 }
-section {
-  margin-top : -135px;
-  padding-top : 135px;
+.detail_content .box {
+	margin-bottom:30px;
+	clear:both;
+}
+
+.detail_content table {
+	text-align: center;
+	margin: 0 0 0 1.5em;
+	border: 1px #E3E3E3 solid;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.detail_content table th{
+    padding: 5px;
+    border: #E3E3E3 solid;
+    border-width: 0 0 1px 1px;
+    background: #F5F5F5;
+    font-weight: bold;
+    line-height: 120%;
+    text-align: center;
+}
+
+.detail_content table td{
+    padding: 5px;
+    border: 1px #E3E3E3 solid;
+    border-width: 0 0 1px 1px;
+    text-align: center;
+}
+
+.detail_content ul {
+	padding: 0;
+	margin: 0 0 0 1.5em;
+	list-style: url('../img/list_icon.gif') inside circle;
+}
+
+.detail_content ul.orange {
+	padding: 0;
+	margin: 0 0 0 0.5em;
+	list-style: url('../img/ecalic036_004.gif') inside circle;
+}
+
+.detail_content p {
+	margin: 0 0 0 1.5em;
 }

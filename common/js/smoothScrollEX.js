@@ -3,7 +3,7 @@
 			
 	var headerHight = 135; 
 				
-		$('[li.panel-body > a').click(function(event){  //href属性に#が含まれている要素をクリックした時
+		$('[href*=#]:not([href*=collapse])').click(function(event){  //href属性に#が含まれている要素をクリックした時
 			
 			var element = $(this);
 			var elementHref = element.attr('href');
