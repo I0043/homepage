@@ -917,6 +917,19 @@
 .fa-angle-down:before {
   content: "\f107";
 }
+/*条件分岐を追記*/
+button.collapsed > i:before {
+  content: "\f107";
+}
+button.open > i:before {
+  content: "\f106";
+}
+a.collapsed > i:before {
+  content: "\f107";
+}
+a.open > i:before {
+  content: "\f106";
+}
 .fa-desktop:before {
   content: "\f108";
 }

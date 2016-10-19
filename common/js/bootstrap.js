@@ -603,6 +603,7 @@ if (typeof jQuery === 'undefined') {
 
     this.$trigger
       .removeClass('collapsed')
+      .addClass('open')
       .attr('aria-expanded', true)
 
     this.transitioning = 1
@@ -643,6 +644,7 @@ if (typeof jQuery === 'undefined') {
 
     this.$trigger
       .addClass('collapsed')
+      .removeClass('open')
       .attr('aria-expanded', false)
 
     this.transitioning = 1
