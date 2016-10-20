@@ -6519,18 +6519,18 @@ footer .up-footer .flickr-widget ul li a:hover {
    width:  150px;
    height: 150px;
 }
-#caser_slide img {
+#caser_slide a {
    position: absolute;
    top: 0;
    left:0;
    z-index: 8;
    opacity: 0.0;
 }
-#caser_slide img.active {
+#caser_slide a.active {
    z-index: 10;
    opacity: 1.0;
 }
-#caser_slide img.last-active {
+#caser_slide a.last-active {
    z-index: 9;
 }
 #contents_caser {
@@ -6538,18 +6538,18 @@ footer .up-footer .flickr-widget ul li a:hover {
    width:  150px;
    height: 150px;
 }
-#contents_caser img {
+#contents_caser a {
    position: absolute;
    top: 0;
    left:0;
    z-index: 8;
    opacity: 0.0;
 }
-#contents_caser img.active {
+#contents_caser a.active {
    z-index: 10;
    opacity: 1.0;
 }
-#contents_caser img.last-active {
+#contents_caser a.last-active {
    z-index: 9;
 }
 #robot_slide {
@@ -6557,18 +6557,18 @@ footer .up-footer .flickr-widget ul li a:hover {
    width:  150px;
    height: 150px;
 }
-#robot_slide img {
+#robot_slide a {
    position: absolute;
    top: 0;
    left:0;
    z-index: 8;
    opacity: 0.0;
 }
-#robot_slide img.active {
+#robot_slide a.active {
    z-index: 10;
    opacity: 1.0;
 }
-#robot_slide img.last-active {
+#robot_slide a.last-active {
    z-index: 9;
 }
 #contents_robot {
@@ -6576,18 +6576,18 @@ footer .up-footer .flickr-widget ul li a:hover {
    width:  150px;
    height: 150px;
 }
-#contents_robot img {
+#contents_robot a {
    position: absolute;
    top: 0;
    left:0;
    z-index: 8;
    opacity: 0.0;
 }
-#contents_robot img.active {
+#contents_robot a.active {
    z-index: 10;
    opacity: 1.0;
 }
-#contents_robot img.last-active {
+#contents_robot a.last-active {
    z-index: 9;
 }
 #kamicup_slide {
@@ -6595,18 +6595,18 @@ footer .up-footer .flickr-widget ul li a:hover {
    width:  150px;
    height: 150px;
 }
-#kamicup_slide img {
+#kamicup_slide a {
    position: absolute;
    top: 0;
    left:0;
    z-index: 8;
    opacity: 0.0;
 }
-#kamicup_slide img.active {
+#kamicup_slide a.active {
    z-index: 10;
    opacity: 1.0;
 }
-#kamicup_slide img.last-active {
+#kamicup_slide a.last-active {
    z-index: 9;
 }
 #contents_kamicup {
@@ -6614,18 +6614,18 @@ footer .up-footer .flickr-widget ul li a:hover {
    width:  150px;
    height: 150px;
 }
-#contents_kamicup img {
+#contents_kamicup a {
    position: absolute;
    top: 0;
    left:0;
    z-index: 8;
    opacity: 0.0;
 }
-#contents_kamicup img.active {
+#contents_kamicup a.active {
    z-index: 10;
    opacity: 1.0;
 }
-#contents_kamicup img.last-active {
+#contents_kamicup a.last-active {
    z-index: 9;
 }
 #zyuuten_slide {
@@ -6633,18 +6633,18 @@ footer .up-footer .flickr-widget ul li a:hover {
    width:  150px;
    height: 150px;
 }
-#zyuuten_slide img {
+#zyuuten_slide a {
    position: absolute;
    top: 0;
    left:0;
    z-index: 8;
    opacity: 0.0;
 }
-#zyuuten_slide img.active {
+#zyuuten_slide a.active {
    z-index: 10;
    opacity: 1.0;
 }
-#zyuuten_slide img.last-active {
+#zyuuten_slide a.last-active {
    z-index: 9;
 }
 #contents_zyuuten {
@@ -6652,18 +6652,18 @@ footer .up-footer .flickr-widget ul li a:hover {
    width:  150px;
    height: 150px;
 }
-#contents_zyuuten img {
+#contents_zyuuten a {
    position: absolute;
    top: 0;
    left:0;
    z-index: 8;
    opacity: 0.0;
 }
-#contents_zyuuten img.active {
+#contents_zyuuten a.active {
    z-index: 10;
    opacity: 1.0;
 }
-#contents_zyuuten img.last-active {
+#contents_zyuuten a.last-active {
    z-index: 9;
 }
 #conveyor_slide {
@@ -6671,18 +6671,18 @@ footer .up-footer .flickr-widget ul li a:hover {
    width:  150px;
    height: 150px;
 }
-#conveyor_slide img {
+#conveyor_slide a {
    position: absolute;
    top: 0;
    left:0;
    z-index: 8;
    opacity: 0.0;
 }
-#conveyor_slide img.active {
+#conveyor_slide a.active {
    z-index: 10;
    opacity: 1.0;
 }
-#conveyor_slide img.last-active {
+#conveyor_slide a.last-active {
    z-index: 9;
 }
 #contents_conveyor {
@@ -6690,18 +6690,18 @@ footer .up-footer .flickr-widget ul li a:hover {
    width:  150px;
    height: 150px;
 }
-#contents_conveyor img {
+#contents_conveyor a {
    position: absolute;
    top: 0;
    left:0;
    z-index: 8;
    opacity: 0.0;
 }
-#contents_conveyor img.active {
+#contents_conveyor a.active {
    z-index: 10;
    opacity: 1.0;
 }
-#contents_conveyor img.last-active {
+#contents_conveyor a.last-active {
    z-index: 9;
 }
 .strong_pp {

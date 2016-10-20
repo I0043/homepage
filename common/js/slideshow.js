@@ -1,11 +1,11 @@
 
 function slideSwitch() {
-   var $active = $('#caser_slide img.active');
+   var $active = $('#caser_slide a.active');
 
-   if ( $active.length == 0 ) $active = $('#caser_slide img:last');
+   if ( $active.length == 0 ) $active = $('#caser_slide a:last');
 
    var $next =  $active.next().length ? $active.next()
-      : $('#caser_slide img:first');
+      : $('#caser_slide a:first');
 
    $active.addClass('last-active');
 
@@ -21,12 +21,12 @@ $(function() {
 });
 
 function contents_caser_slideSwitch() {
-   var $active = $('#contents_caser img.active');
+   var $active = $('#contents_caser a.active');
 
-   if ( $active.length == 0 ) $active = $('#contents_caser img:last');
+   if ( $active.length == 0 ) $active = $('#contents_caser a:last');
 
    var $next =  $active.next().length ? $active.next()
-      : $('#contents_caser img:first');
+      : $('#contents_caser a:first');
 
    $active.addClass('last-active');
 
@@ -42,12 +42,12 @@ $(function() {
 });
 
  function conveyor_slide_slideSwitch() {
-   var $active = $('#conveyor_slide img.active');
+   var $active = $('#conveyor_slide a.active');
 
-   if ( $active.length == 0 ) $active = $('#conveyor_slide img:last');
+   if ( $active.length == 0 ) $active = $('#conveyor_slide a:last');
 
    var $next =  $active.next().length ? $active.next()
-      : $('#conveyor_slide img:first');
+      : $('#conveyor_slide a:first');
 
    $active.addClass('last-active');
 
@@ -63,12 +63,12 @@ $(function() {
 });
 
 function contents_conveyor_slideSwitch() {
-   var $active = $('#contents_conveyor img.active');
+   var $active = $('#contents_conveyor a.active');
 
-   if ( $active.length == 0 ) $active = $('#contents_conveyor img:last');
+   if ( $active.length == 0 ) $active = $('#contents_conveyor a:last');
 
    var $next =  $active.next().length ? $active.next()
-      : $('#contents_conveyor img:first');
+      : $('#contents_conveyor a:first');
 
    $active.addClass('last-active');
 
@@ -85,12 +85,12 @@ $(function() {
 
 
 function kamicup_slide_slideSwitch() {
-   var $active = $('#kamicup_slide img.active');
+   var $active = $('#kamicup_slide a.active');
 
-   if ( $active.length == 0 ) $active = $('#kamicup_slide img:last');
+   if ( $active.length == 0 ) $active = $('#kamicup_slide a:last');
 
    var $next =  $active.next().length ? $active.next()
-      : $('#kamicup_slide img:first');
+      : $('#kamicup_slide a:first');
 
    $active.addClass('last-active');
 
@@ -106,12 +106,12 @@ $(function() {
 });
 
 function contents_kamicup_slideSwitch() {
-   var $active = $('#contents_kamicup img.active');
+   var $active = $('#contents_kamicup a.active');
 
-   if ( $active.length == 0 ) $active = $('#contents_kamicup img:last');
+   if ( $active.length == 0 ) $active = $('#contents_kamicup a:last');
 
    var $next =  $active.next().length ? $active.next()
-      : $('#contents_kamicup img:first');
+      : $('#contents_kamicup a:first');
 
    $active.addClass('last-active');
 
@@ -128,12 +128,12 @@ $(function() {
 
 
 function robot_slide_slideSwitch() {
-   var $active = $('#robot_slide img.active');
+   var $active = $('#robot_slide a.active');
 
-   if ( $active.length == 0 ) $active = $('#robot_slide img:last');
+   if ( $active.length == 0 ) $active = $('#robot_slide a:last');
 
    var $next =  $active.next().length ? $active.next()
-      : $('#robot_slide img:first');
+      : $('#robot_slide a:first');
 
    $active.addClass('last-active');
 
@@ -149,12 +149,12 @@ $(function() {
 });
 
 function contents_robot_slideSwitch() {
-   var $active = $('#contents_robot img.active');
+   var $active = $('#contents_robot a.active');
 
-   if ( $active.length == 0 ) $active = $('#contents_robot img:last');
+   if ( $active.length == 0 ) $active = $('#contents_robot a:last');
 
    var $next =  $active.next().length ? $active.next()
-      : $('#contents_robot img:first');
+      : $('#contents_robot a:first');
 
    $active.addClass('last-active');
 
@@ -171,12 +171,12 @@ $(function() {
 
 
 function zyuuten_slide_slideSwitch() {
-   var $active = $('#zyuuten_slide img.active');
+   var $active = $('#zyuuten_slide a.active');
 
-   if ( $active.length == 0 ) $active = $('#zyuuten_slide img:last');
+   if ( $active.length == 0 ) $active = $('#zyuuten_slide a:last');
 
    var $next =  $active.next().length ? $active.next()
-      : $('#zyuuten_slide img:first');
+      : $('#zyuuten_slide a:first');
 
    $active.addClass('last-active');
 
@@ -193,12 +193,12 @@ $(function() {
 
 
 function contents_zyuuten_slideSwitch() {
-   var $active = $('#contents_zyuuten img.active');
+   var $active = $('#contents_zyuuten a.active');
 
-   if ( $active.length == 0 ) $active = $('#contents_zyuuten img:last');
+   if ( $active.length == 0 ) $active = $('#contents_zyuuten a:last');
 
    var $next =  $active.next().length ? $active.next()
-      : $('#contents_zyuuten img:first');
+      : $('#contents_zyuuten a:first');
 
    $active.addClass('last-active');
 
