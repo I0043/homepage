@@ -6556,6 +6556,8 @@ button.close {
 }
 .affix {
   position: fixed;
+  top: 135px;
+  width: 212.5px;
 }
 @-ms-viewport {
   width: device-width;

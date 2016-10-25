@@ -6785,3 +6785,9 @@ footer .up-footer .flickr-widget ul li a:hover {
 .detail_content p {
 	margin: 0 0 0 1.5em;
 }
+
+div#pagetop {
+  padding-top: 20px;
+  padding-right: 20px;
+  float: right;
+}

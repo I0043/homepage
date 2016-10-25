@@ -1,0 +1,10 @@
+header,
+footer,
+div.section-content.page-banner-section,
+div.sidebar,
+div#register-popup.mfp-hide.white-popup {
+    display: none
+}
+.product_detail {
+    page-break-after: always;
+}
