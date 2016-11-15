@@ -1,7 +1,7 @@
 <!doctype html>
 
 
-<html lang="ja" class="no-js">
+<<html lang="ja" class="no-js">
 <head>
 	<title>製品情報＜包装機＞｜包装機械の植田酪農機工業</title>
 
@@ -61,11 +61,26 @@
 	<script type="text/javascript" src="../common/js/script.js"></script>
 	<script type="text/javascript" src="../common/js/slideshow.js"></script>
 	<script type="text/javascript" src="../common/js/smoothScrollEX.js"></script>
-
+	<script type="text/javascript" src="../common/js/jquery.ui.core.js"></script>
+	<script type="text/javascript" src="../common/js/jquery.scrollfollow.js"></script>
+	
+<script type="text/javascript">
+    $( document ).ready( function ()
+        {
+            $( '#scroll' ).scrollFollow(
+                {
+                    speed: 1000,
+                    offset: 135,
+                    container: 'content'
+                }
+            );
+        }
+    );
+</script>
 
 
 </head>
-<body data-spy="scroll" data-target=".panel-group">
+<body>
 	<div id="container" class="active">
 
 		<!-- Header================================================== -->
@@ -711,6 +726,7 @@
 									</div>
 								</div>
 								<div class="col-md-3">
+									<div id="scroll">
 									<div class="sidebar">
 										<div class="category-widget widget">
 											<div class="panel-group" id="accordion">
@@ -800,6 +816,7 @@
 												</div>
 											</div>
 										</div>
+									</div>
 									</div>
 								</div>
 							</div>
