@@ -78,8 +78,10 @@
 			var viewportHeight = parseInt( $( window ).height() );	
 			var pageScroll =  parseInt( $( document ).scrollTop() );
 			var parentTop =  parseInt( box.cont.offset().top );
-			var parentHeight = parseInt( box.cont.attr( 'offsetHeight' ) );
-			var boxHeight = parseInt( box.attr( 'offsetHeight' ) );
+			// var parentHeight = parseInt( box.cont.attr( 'offsetHeight' ) );
+			var parentHeight = parseInt( box.cont.get(0).offsetHeight );
+			// var boxHeight = parseInt( box.attr( 'offsetHeight' ) );
+			var boxHeight = parseInt( box.get(0).offsetHeight );
 			var innerHeight = boxHeight - options.topAdjust - options.bottomAdjust;
 			var aniTop;
 			var animateflag = 0;
