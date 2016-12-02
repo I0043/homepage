@@ -448,10 +448,10 @@
 		
 		// #back-to-topがクリックされたら上に戻る
 		$('#back-to-top a').click(function() {
-			$('body').animate({
-				scrollTop:0
-			}, 500);
-			return false;
+		    $('body,html').animate({
+		        scrollTop:0
+		    }, 500);
+		    return false;
 		});
 	});
 	</script>
