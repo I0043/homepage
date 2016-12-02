@@ -50,7 +50,7 @@
 
 
 body {
-  background: url('../images/back-pattern.png');
+  /*background: url('../images/back-pattern.png');*/
   font-family: "メイリオ","Meiryo","ＭＳ Ｐゴシック","Hiragino Kaku Gothic Pro"," ヒラギノ角ゴ Pro W3",sans-serif,'Droid Serif', serif;
 }
 
@@ -6793,4 +6793,8 @@ div#pagetop {
 }
 #scroll {
   position: relative;
+}
+
+div#pos {
+  visibility:hidden;
 }
