@@ -17,7 +17,7 @@ html {
 body#home {
 	color: #333333;
 	font-size:13px;
-	background:#ffffff url(../img/bg_body.jpg) repeat-x top;
+	background:#F4F9FF url(../img/bg_body.jpg) repeat-x top;
 	font-family: " メイリオ","Meiryo"," ＭＳ Ｐゴシック","Hiragino Kaku Gothic Pro"," ヒラギノ角ゴPro W3",sans-serif;
 	line-height:140%;
 }

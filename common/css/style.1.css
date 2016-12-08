@@ -76,7 +76,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   font-size: 14px;
-  font-family: "ＭＳ Ｐゴシック","Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "メイリオ","Meiryo","ＭＳ Ｐゴシック","Hiragino Kaku Gothic Pro"," ヒラギノ角ゴ Pro W3",sans-serif,'Droid Serif', serif;
   color: #434343;
   font-weight: 400;
   line-height: 28px;
@@ -400,6 +400,12 @@ website:    http://www.themepunch.com
 }
 .navbar-nav li.drop {
   position: relative;
+}
+.navbar-nav li.drop:hover {
+  background-color: #F3F3F3
+}
+.navbar-nav li.dropdown:hover {
+  background-color: #F3F3F3
 }
 .navbar-nav li ul.drop-down {
   margin: 0;
@@ -6507,28 +6513,28 @@ footer .up-footer .flickr-widget ul li a:hover {
    padding-top: 110px;
  }
  .w3_megamenu-content a {
-  color: #3a3c43;
   text-decoration: none;
  }
  
-.w3_megamenu-content .row .col-sm-2  {
+.w3_megamenu-content .row .col-sm-2 {
   text-align:center;
   }
  .w3_megamenu-content > .row > .col-sm-2:hover {
-  /*border-bottom: 3px solid #5AC8FB;*/
-  border-bottom: 3px solid #000080;
+  border-bottom: 3px solid #5AC8FB;
+  background-color: #F3F3F3;
+  /*border-bottom: 3px solid #000080;*/
 }
 
  .w3_megamenu-content > .row > .col-sm-2:hover h5 > a {
-  /*color: #5AC8FB;*/
-  color: #000080;
+  color: #5AC8FB;
+  /*color: #000080;*/
 }
 
- @media (min-width: 768px) {
- .dropdown:hover > .dropdown-menu {
-   display:block;
-   }
- }
+ /*@media (min-width: 768px) {*/
+ /*.dropdown:hover > .dropdown-menu {*/
+   /*display:block;*/
+ /*  }*/
+ /*}*/
  @media (max-width: 378px) {
   #container {
     padding-top: 100px;
@@ -6537,8 +6543,9 @@ footer .up-footer .flickr-widget ul li a:hover {
 
 #caser_slide {
    position: relative;
-   width:  150px;
-   height: 150px;
+   width:  120px;
+   height: 120px;
+   margin: auto;
 }
 #caser_slide a {
    position: absolute;
@@ -6558,6 +6565,7 @@ footer .up-footer .flickr-widget ul li a:hover {
    position: relative;
    width:  150px;
    height: 150px;
+
 }
 #contents_caser a {
    position: absolute;
@@ -6575,8 +6583,9 @@ footer .up-footer .flickr-widget ul li a:hover {
 }
 #robot_slide {
    position: relative;
-   width:  150px;
-   height: 150px;
+   width:  120px;
+   height: 120px;
+   margin: auto;
 }
 #robot_slide a {
    position: absolute;
@@ -6613,8 +6622,9 @@ footer .up-footer .flickr-widget ul li a:hover {
 }
 #kamicup_slide {
    position: relative;
-   width:  150px;
-   height: 150px;
+   width:  120px;
+   height: 120px;
+   margin: auto;
 }
 #kamicup_slide a {
    position: absolute;
@@ -6651,8 +6661,9 @@ footer .up-footer .flickr-widget ul li a:hover {
 }
 #zyuuten_slide {
    position: relative;
-   width:  150px;
-   height: 150px;
+   width:  120px;
+   height: 120px;
+   margin: auto;
 }
 #zyuuten_slide a {
    position: absolute;
@@ -6689,8 +6700,9 @@ footer .up-footer .flickr-widget ul li a:hover {
 }
 #conveyor_slide {
    position: relative;
-   width:  150px;
-   height: 150px;
+   width:  120px;
+   height: 120px;
+   margin: auto;
 }
 #conveyor_slide a {
    position: absolute;

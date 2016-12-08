@@ -2345,6 +2345,11 @@ if (typeof jQuery === 'undefined') {
   }
 
 
+  $("#close").click(function(){
+  	$("#megadrop").removeClass("open")
+  	$("#mega-tag").attr('aria-expanded', false);
+  });
+
   // AFFIX DATA-API
   // ==============
 
