@@ -6519,10 +6519,12 @@ footer .up-footer .flickr-widget ul li a:hover {
 .w3_megamenu-content .row .col-sm-2 {
   text-align:center;
   }
- .w3_megamenu-content > .row > .col-sm-2:hover {
-  border-bottom: 3px solid #5AC8FB;
-  background-color: #F3F3F3;
-  /*border-bottom: 3px solid #000080;*/
+@media (min-width: 768px) {  
+   .w3_megamenu-content > .row > .col-sm-2:hover {
+    border-bottom: 3px solid #5AC8FB;
+    background-color: #F3F3F3;
+    /*border-bottom: 3px solid #000080;*/
+  }
 }
 
  .w3_megamenu-content > .row > .col-sm-2:hover h5 > a {
@@ -6532,7 +6534,7 @@ footer .up-footer .flickr-widget ul li a:hover {
 
  /*@media (min-width: 768px) {*/
  /*.dropdown:hover > .dropdown-menu {*/
-   /*display:block;*/
+ /*  display:block;*/
  /*  }*/
  /*}*/
  @media (max-width: 378px) {

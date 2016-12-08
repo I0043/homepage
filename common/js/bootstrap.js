@@ -869,6 +869,29 @@ if (typeof jQuery === 'undefined') {
     $items.eq(index).trigger('focus')
   }
 
+$(function(){
+  var $this;
+
+  var moving = false;
+  $('li.dropdown').on('mousemove', function(){
+    if (!moving) {
+      moving = true;
+      return;
+    }
+    $this = $(this);
+    if ($this.css('float')!='left') return;
+    $this.addClass('open');
+    moving = false;
+  });
+
+  $('li.dropdown').hover(function(){
+    // 何もしない
+  }, function(){
+    $this = $(this);
+    $this.removeClass('open');
+    moving = false;
+  });
+});
 
   // DROPDOWN PLUGIN DEFINITION
   // ==========================
@@ -887,6 +910,7 @@ if (typeof jQuery === 'undefined') {
 
   $.fn.dropdown             = Plugin
   $.fn.dropdown.Constructor = Dropdown
+
 
 
   // DROPDOWN NO CONFLICT
@@ -2343,7 +2367,16 @@ if (typeof jQuery === 'undefined') {
     $.fn.affix = old
     return this
   }
-
+  
+    // document.getElementById( "#megadrop" ).onmouseover = function(){
+    //   $("#megadrop").addClass("open")
+    // 	$("#mega-tag").attr('aria-expanded', true);
+    // };
+    
+    // document.getElementById( "#megadrop" ).onmouseout = function(){
+    //   $("#megadrop").removeClass("open")
+    // 	$("#mega-tag").attr('aria-expanded', false);
+    // };
 
   $("#close").click(function(){
   	$("#megadrop").removeClass("open")
