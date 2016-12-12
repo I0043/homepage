@@ -6516,9 +6516,6 @@ footer .up-footer .flickr-widget ul li a:hover {
   text-decoration: none;
  }
  
-.w3_megamenu-content .row .col-sm-2 {
-  text-align:center;
-  }
 @media (min-width: 768px) {  
    .w3_megamenu-content > .row > .col-sm-2:hover {
     border-bottom: 3px solid #5AC8FB;
@@ -6988,4 +6985,8 @@ body#detail {
 
 #close {
   cursor: pointer;
+}
+
+.title-section > h1 {
+  font-family: "migmix-1p-bold";
 }
