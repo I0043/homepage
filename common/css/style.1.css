@@ -3884,6 +3884,8 @@ a.next-link:hover {
   margin: 0 0 45px;
   margin-bottom: 12px;
   font-weight: 700;
+  font-family: "migmix-1p-bold";
+  border-left: 3px solid #2d7091;
 }
 .title-section p {
   margin-bottom: 12px;
@@ -6985,8 +6987,4 @@ body#detail {
 
 #close {
   cursor: pointer;
-}
-
-.title-section > h1 {
-  font-family: "migmix-1p-bold";
 }
