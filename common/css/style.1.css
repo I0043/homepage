@@ -1,7 +1,5 @@
-
 /*-------------------------------------------------
  =  Table of Css
-
  1.Isotope
  1.KENBURNER RESPONSIVE BASIC STYLES OF HTML DOCUMENT
  3.Header
@@ -84,6 +82,11 @@ p {
   //letter-spacing: 1px;
 }
 
+@font-face {
+ font-family: migmix-1p-bold;
+ src: url('../fonts/migmix-1p-bold.ttf') format("opentype");
+}
+
 /*-------------------------------------------------------*/
 /* 1. Isotope filtering
 /*-------------------------------------------------------*/
@@ -112,11 +115,8 @@ p {
   transition-property: transform, opacity;
 }
 /*-----------------------------------------------------------------------------
-
 KENBURNER RESPONSIVE BASIC STYLES OF HTML DOCUMENT
-
 Screen Stylesheet
-
 version:    1.0
 date:       07/27/11
 author:     themepunch
