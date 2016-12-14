@@ -3882,10 +3882,12 @@ a.next-link:hover {
   font-size: 24px;
   font-weight: 400;
   margin: 0 0 45px;
+  padding: 0.5em;
   margin-bottom: 12px;
   font-weight: 700;
   font-family: "migmix-1p-bold";
-  border-left: 3px solid #2d7091;
+  border-left: 5px solid #2d7091;
+  border-bottom: 2px solid #F3F3F3;
 }
 .title-section p {
   margin-bottom: 12px;
