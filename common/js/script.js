@@ -719,41 +719,41 @@ $(document).ready(function($) {
 
 
 	/* ---------------------------------------------------------------------- */
-	/*	Header animate after scroll
+	/*	Header animate after scroll 大きさの切り替わりは不要のためコメントアウト
 	/* ---------------------------------------------------------------------- */
 
-	(function() {
+// 	(function() {
 
-		var docElem = document.documentElement,
-			didScroll = false,
-			changeHeaderOn = 40;
-			document.querySelector( 'header' );
-		function init() {
-			window.addEventListener( 'scroll', function() {
-				if( !didScroll ) {
-					didScroll = true;
-					setTimeout( scrollPage, 100 );
-				}
-			}, false );
-		}
+// 		var docElem = document.documentElement,
+// 			didScroll = false,
+// 			changeHeaderOn = 40;
+// 			document.querySelector( 'header' );
+// 		function init() {
+// 			window.addEventListener( 'scroll', function() {
+// 				if( !didScroll ) {
+// 					didScroll = true;
+// 					setTimeout( scrollPage, 100 );
+// 				}
+// 			}, false );
+// 		}
 		
-		function scrollPage() {
-			var sy = scrollY();
-			if ( sy >= changeHeaderOn ) {
-				$( 'header' ).addClass('active');
-			}
-			else {
-				$( 'header' ).removeClass('active');
-			}
-			didScroll = false;
-		}
+// 		function scrollPage() {
+// 			var sy = scrollY();
+// 			if ( sy >= changeHeaderOn ) {
+// 				$( 'header' ).addClass('active');
+// 			}
+// 			else {
+// 				$( 'header' ).removeClass('active');
+// 			}
+// 			didScroll = false;
+// 		}
 		
-		function scrollY() {
-			return window.pageYOffset || docElem.scrollTop;
-		}
+// 		function scrollY() {
+// 			return window.pageYOffset || docElem.scrollTop;
+// 		}
 		
-		init();
+// 		init();
 		
-	})();
+// 	})();
 
-});
+// });

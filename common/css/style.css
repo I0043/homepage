@@ -1,7 +1,5 @@
-
 /*-------------------------------------------------
  =  Table of Css
-
  1.Isotope
  1.KENBURNER RESPONSIVE BASIC STYLES OF HTML DOCUMENT
  3.Header
@@ -76,12 +74,17 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   font-size: 14px;
-  font-family: "ＭＳ Ｐゴシック","Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "メイリオ","Meiryo","ＭＳ Ｐゴシック","Hiragino Kaku Gothic Pro"," ヒラギノ角ゴ Pro W3",sans-serif,'Droid Serif', serif;
   color: #434343;
   font-weight: 400;
   line-height: 28px;
   margin: 0 0 15px;
   //letter-spacing: 1px;
+}
+
+@font-face {
+ font-family: migmix-1p-bold;
+ src: url('../fonts/migmix-1p-bold.ttf') format("opentype");
 }
 
 /*-------------------------------------------------------*/
@@ -112,11 +115,8 @@ p {
   transition-property: transform, opacity;
 }
 /*-----------------------------------------------------------------------------
-
 KENBURNER RESPONSIVE BASIC STYLES OF HTML DOCUMENT
-
 Screen Stylesheet
-
 version:    1.0
 date:       07/27/11
 author:     themepunch
@@ -400,6 +400,12 @@ website:    http://www.themepunch.com
 }
 .navbar-nav li.drop {
   position: relative;
+}
+.navbar-nav li.drop:hover {
+  background-color: #F3F3F3
+}
+.navbar-nav li.dropdown:hover {
+  background-color: #F3F3F3
 }
 .navbar-nav li ul.drop-down {
   margin: 0;
@@ -1163,6 +1169,9 @@ li.megadrop:hover .megadrop-down {
   height: 100%;
   background: rgba(0, 0, 0, 0.48);
 }
+.section-content {
+  padding: 50px 0 10px;
+}
 .services-section {
   padding: 80px 0 20px;
 }
@@ -1704,24 +1713,24 @@ button.mfp-arrow {
 /*-------------------------------------------------*/
 /* =  blog grid pages
 /*-------------------------------------------------*/
-.blog-section {
+.product-section {
   padding: 90px 0;
 }
-.blog-section .blog-box {
+.product-section .product-box {
   border-bottom: 1px solid #dddddd;
   margin-bottom: 50px;
 }
-.blog-section .blog-box .blog-post {
+.product-section .product-box .product {
   margin-bottom: 40px;
 }
-.blog-section .blog-box .blog-post .blog-gal {
+.product-section .product-box .product .product-pic {
   position: relative;
   margin-bottom: 30px;
 }
-.blog-section .blog-box .blog-post .blog-gal img {
+.product-section .product-box .product .product-pic img {
   width: 187px;
 }
-.blog-section .blog-box .blog-post .blog-gal .blog-hover {
+.product-section .product-box .product .product-pic .blog-hover {
   position: absolute;
   top: 0;
   left: 0;
@@ -1734,7 +1743,7 @@ button.mfp-arrow {
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
 }
-.blog-section .blog-box .blog-post .blog-gal .blog-hover a {
+.product-section .product-box .product .product-pic .blog-hover a {
   display: inline-block;
   text-decoration: none;
   transition: all 0.2s ease-in-out;
@@ -1756,15 +1765,15 @@ button.mfp-arrow {
   text-align: center;
   color: #ffffff;
 }
-.blog-section .blog-box .blog-post .blog-gal .blog-hover a i {
+.product-section .product-box .product .product-pic .blog-hover a i {
   line-height: 38px;
   font-size: 14px;
 }
-.blog-section .blog-box .blog-post .blog-gal .blog-hover a:hover {
+.product-section .product-box .product .product-pic .blog-hover a:hover {
   background: #ffffff;
   color: #5AC8FB;
 }
-.blog-section .blog-box .blog-post h2 {
+.product-section .product-box .product h2 {
   color: #434343;
   font-size: 18px;
   font-weight: 400;
@@ -1772,7 +1781,7 @@ button.mfp-arrow {
   margin-bottom: 8px;
   line-height: 26px;
 }
-.blog-section .blog-box .blog-post h2 a {
+.product-section .product-box .product h2 a {
   display: inline-block;
   text-decoration: none;
   transition: all 0.2s ease-in-out;
@@ -1781,20 +1790,20 @@ button.mfp-arrow {
   -o-transition: all 0.2s ease-in-out;
   color: #434343;
 }
-.blog-section .blog-box .blog-post h2 a:hover {
+.product-section .product-box .product h2 a:hover {
   color: #5AC8FB;
 }
-.blog-section .blog-box .blog-post ul.post-tags {
+.product-section .product-box .product ul.post-tags {
   margin: 0;
   padding: 0;
   margin-bottom: 17px;
 }
-.blog-section .blog-box .blog-post ul.post-tags li {
+.product-section .product-box .product ul.post-tags li {
   display: inline-block;
   margin-bottom: 4px;
   margin-right: 3px;
 }
-.blog-section .blog-box .blog-post ul.post-tags li a {
+.product-section .product-box .product ul.post-tags li a {
   display: inline-block;
   text-decoration: none;
   transition: all 0.2s ease-in-out;
@@ -1806,17 +1815,17 @@ button.mfp-arrow {
   line-height: 20px;
   margin: 0;
 }
-.blog-section .blog-box .blog-post ul.post-tags li a i {
+.product-section .product-box .product ul.post-tags li a i {
   font-size: 14px;
   margin-right: 2px;
 }
-.blog-section .blog-box .blog-post ul.post-tags li a.comment-number {
+.product-section .product-box .product ul.post-tags li a.comment-number {
   color: #333333;
 }
-.blog-section .blog-box .blog-post ul.post-tags li a:hover {
+.product-section .product-box .product ul.post-tags li a:hover {
   color: #5AC8FB;
 }
-.blog-section .blog-box .blog-post ul.post-tags li:before {
+.product-section .product-box .product ul.post-tags li:before {
   content: '|';
   color: #afafaf;
   font-size: 12px;
@@ -1824,13 +1833,13 @@ button.mfp-arrow {
   line-height: 16px;
   margin-top: -2px;
 }
-.blog-section .blog-box .blog-post ul.post-tags li:first-child:before {
+.product-section .product-box .product ul.post-tags li:first-child:before {
   display: none;
 }
-.blog-section .blog-box .blog-post ul.post-tags li:last-child {
+.product-section .product-box .product ul.post-tags li:last-child {
   margin-right: 0;
 }
-.blog-section .blog-box .blog-post > a {
+.product-section .product-box .product > a {
   display: inline-block;
   text-decoration: none;
   transition: all 0.2s ease-in-out;
@@ -1840,24 +1849,24 @@ button.mfp-arrow {
   color: #5AC8FB;
   font-size: 13px;
 }
-.blog-section .blog-box .blog-post > a i {
+.product-section .product-box .product > a i {
   margin-left: 15px;
 }
-.blog-section .blog-box .blog-post > a:hover {
+.product-section .product-box .product > a:hover {
   opacity: 0.7;
 }
-.blog-section .blog-box .blog-post > a.comment-number {
+.product-section .product-box .product > a.comment-number {
   color: #333333;
   float: right;
 }
-.blog-section .blog-box .blog-post > a.comment-number i {
+.product-section .product-box .product > a.comment-number i {
   font-size: 14px;
   margin-left: 0;
 }
-.blog-section .blog-box .blog-post:hover .blog-gal .blog-hover {
+.product-section .product-box .product:hover .product-pic .blog-hover {
   opacity: 1;
 }
-.blog-section .container-fluid .blog-box {
+.product-section .container-fluid .product-box {
   margin: 0 95px 50px;
 }
 ul.pagination-list {
@@ -2074,21 +2083,21 @@ ul.pagination-list li a.active {
 /*-------------------------------------------------*/
 /* =  blog medium pages
 /*-------------------------------------------------*/
-.blog-section.blog-medium .blog-box {
+.product-section.product-medium .product-box {
   border-bottom: none;
   margin-bottom: 0;
 }
-.blog-section.blog-medium .blog-box .blog-post {
+.product-section.product-medium .product-box .product {
   margin-bottom: 50px;
   padding-bottom: 50px;
   border-bottom: 1px solid #dddddd;
   overflow: hidden;
 }
-.blog-section.blog-medium .blog-box .blog-post .blog-gal {
+.product-section.product-medium .product-box .product .product-pic {
   margin-bottom: 0;
   padding-left: 34px;
 }
-.blog-section.blog-medium .blog-box .blog-post .blog-gal .date-post {
+.product-section.product-medium .product-box .product .product-pic .date-post {
   position: absolute;
   left: 0;
   top: 12px;
@@ -2102,21 +2111,21 @@ ul.pagination-list li a.active {
   padding-top: 15px;
   text-align: center;
 }
-.blog-section.blog-medium .blog-box .blog-post .blog-gal .date-post p {
+.product-section.product-medium .product-box .product .product-pic .date-post p {
   color: #ffffff;
   font-size: 14px;
   text-transform: uppercase;
   line-height: 20px;
 }
-.blog-section.blog-medium .blog-box .blog-post .blog-gal .date-post p span {
+.product-section.product-medium .product-box .product .product-pic .date-post p span {
   display: block;
   font-size: 24px;
   line-height: 20px;
 }
-.blog-section.blog-medium .blog-box .blog-post .blog-content {
+.product-section.product-medium .product-box .product .product-content {
   padding-top: 6px;
 }
-.blog-section.blog-medium .blog-box .blog-post .blog-content > a {
+.product-section.product-medium .product-box .product .product-content > a {
   display: inline-block;
   text-decoration: none;
   transition: all 0.2s ease-in-out;
@@ -2126,19 +2135,19 @@ ul.pagination-list li a.active {
   color: #5AC8FB;
   font-size: 13px;
 }
-.blog-section.blog-medium .blog-box .blog-post .blog-content > a i {
+.product-section.product-medium .product-box .product .product-content > a i {
   margin-left: 15px;
 }
-.blog-section.blog-medium .blog-box .blog-post .blog-content > a:hover {
+.product-section.product-medium .product-box .product .product-content > a:hover {
   opacity: 0.7;
 }
-.blog-section.blog-medium .blog-box .blog-post .blog-content h2 {
+.product-section.product-medium .product-box .product .product-content h2 {
   margin-bottom: 4px;
 }
-.blog-section.blog-medium .blog-box .blog-post .blog-content ul.post-tags {
+.product-section.product-medium .product-box .product .product-content ul.post-tags {
   margin-bottom: 12px;
 }
-.blog-section.blog-medium .blog-box .blog-post .blog-content p {
+.product-section.product-medium .product-box .product .product-content p {
   margin-bottom: 10px;
 }
 /*-------------------------------------------------*/
@@ -2538,7 +2547,7 @@ ul.pagination-list li a.active {
   font-family: 'FontAwesome';
   color: #434343;
   font-size: 14px;
-  margin-right: 17px;
+  margin-right: 5px;
   transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
@@ -3873,8 +3882,12 @@ a.next-link:hover {
   font-size: 24px;
   font-weight: 400;
   margin: 0 0 45px;
+  padding: 0.5em;
   margin-bottom: 12px;
   font-weight: 700;
+  font-family: "migmix-1p-bold";
+  border-left: 5px solid #2d7091;
+  border-bottom: 2px solid #F3F3F3;
 }
 .title-section p {
   margin-bottom: 12px;
@@ -6503,11 +6516,28 @@ footer .up-footer .flickr-widget ul li a:hover {
  .content-padding{
    padding-top: 110px;
  }
- @media (min-width: 768px) {
- .dropdown:hover > .dropdown-menu {
-   display:block;
-   }
+ .w3_megamenu-content a {
+  text-decoration: none;
  }
+ 
+@media (min-width: 768px) {  
+   .w3_megamenu-content > .row > .col-sm-2:hover {
+    border-bottom: 3px solid #5AC8FB;
+    background-color: #F3F3F3;
+    /*border-bottom: 3px solid #000080;*/
+  }
+}
+
+ .w3_megamenu-content > .row > .col-sm-2:hover h5 > a {
+  color: #5AC8FB;
+  /*color: #000080;*/
+}
+
+ /*@media (min-width: 768px) {*/
+ /*.dropdown:hover > .dropdown-menu {*/
+ /*  display:block;*/
+ /*  }*/
+ /*}*/
  @media (max-width: 378px) {
   #container {
     padding-top: 100px;
@@ -6516,8 +6546,9 @@ footer .up-footer .flickr-widget ul li a:hover {
 
 #caser_slide {
    position: relative;
-   width:  150px;
-   height: 150px;
+   width:  120px;
+   height: 120px;
+   margin: auto;
 }
 #caser_slide a {
    position: absolute;
@@ -6537,6 +6568,7 @@ footer .up-footer .flickr-widget ul li a:hover {
    position: relative;
    width:  150px;
    height: 150px;
+
 }
 #contents_caser a {
    position: absolute;
@@ -6554,8 +6586,9 @@ footer .up-footer .flickr-widget ul li a:hover {
 }
 #robot_slide {
    position: relative;
-   width:  150px;
-   height: 150px;
+   width:  120px;
+   height: 120px;
+   margin: auto;
 }
 #robot_slide a {
    position: absolute;
@@ -6592,8 +6625,9 @@ footer .up-footer .flickr-widget ul li a:hover {
 }
 #kamicup_slide {
    position: relative;
-   width:  150px;
-   height: 150px;
+   width:  120px;
+   height: 120px;
+   margin: auto;
 }
 #kamicup_slide a {
    position: absolute;
@@ -6630,8 +6664,9 @@ footer .up-footer .flickr-widget ul li a:hover {
 }
 #zyuuten_slide {
    position: relative;
-   width:  150px;
-   height: 150px;
+   width:  120px;
+   height: 120px;
+   margin: auto;
 }
 #zyuuten_slide a {
    position: absolute;
@@ -6668,8 +6703,9 @@ footer .up-footer .flickr-widget ul li a:hover {
 }
 #conveyor_slide {
    position: relative;
-   width:  150px;
-   height: 150px;
+   width:  120px;
+   height: 120px;
+   margin: auto;
 }
 #conveyor_slide a {
    position: absolute;
@@ -6797,4 +6833,160 @@ div#pagetop {
 
 div#pos {
   visibility:hidden;
+}
+
+/* *******************************************
+     基本設定
+******************************************* */
+
+/* html
+------------------------------------------------- */
+
+html {
+	overflow-y:scroll;
+}
+
+/* body定義
+/* detailを追加 2012.04.07川名
+------------------------------------------------- */
+body#home {
+	color: #333333;
+	font-size:13px;
+	background:#ffffff url(../img/bg_body.jpg) repeat-x top;
+	font-family: " メイリオ","Meiryo"," ＭＳ Ｐゴシック","Hiragino Kaku Gothic Pro"," ヒラギノ角ゴPro W3",sans-serif;
+	line-height:140%;
+}
+body#company,
+body#products,
+body#recruit,
+body#access,
+body#contact {
+	color: #333333;
+	font-size:13px;
+	background:#ffffff url(../img/bg_body02.jpg) repeat-x top;
+	font-family: " メイリオ","Meiryo"," ＭＳ Ｐゴシック","Hiragino Kaku Gothic Pro"," ヒラギノ角ゴPro W3",sans-serif;
+	line-height:140%;
+}
+
+body#detail {
+	color: #333333;
+	font-size:13px;
+	background:#ffffff;
+	font-family: " メイリオ","Meiryo"," ＭＳ Ｐゴシック","Hiragino Kaku Gothic Pro"," ヒラギノ角ゴPro W3",sans-serif;
+	line-height:140%;
+}
+
+/* メインコンテンツ
+/* detail_contentを追加 2012.04.07川名
+------------------------------------------------- */
+
+#detail_content {
+	width:700px;
+	padding:30px 0 0 0;
+	float:left;
+}
+#detail_content h2 {
+	margin-bottom:20px;
+}
+#detail_content h3 {
+	margin-bottom:10px;
+	clear: both;
+}
+#detail_content .box {
+	margin-bottom:30px;
+	clear:both;
+}
+
+#detail_content table {
+	text-align: center;
+	margin: 0 0 0 1.5em;
+	border: 1px #E3E3E3 solid;
+	border-collapse: collapse;
+	border-spacing: 0
+}
+
+#detail_content table th{
+    padding: 5px;
+    border: #E3E3E3 solid;
+    border-width: 0 0 1px 1px;
+    background: #F5F5F5;
+    font-weight: bold;
+    line-height: 120%;
+    text-align: center;
+}
+
+#detail_content table td{
+    padding: 5px;
+    border: 1px #E3E3E3 solid;
+    border-width: 0 0 1px 1px;
+    text-align: center;
+}
+
+#detail_content ul {
+	padding: 0;
+	margin: 0 0 0 1.5em;
+	list-style: url('../img/list_icon.gif') inside circle;
+}
+
+#detail_content ul.orange {
+	padding: 0;
+	margin: 0 0 0 0.5em;
+	list-style: url('../img/ecalic036_004.gif') inside circle;
+}
+
+#detail_content p {
+	margin: 0 0 0 1.5em;
+}
+
+/* テキスト装飾
+------------------------------------------------- */
+.txt11 {
+	font-size:11px;
+}
+.txt14 {
+	font-size:14px;
+}
+.strong {
+	font-weight:bold;
+}
+.strong_pp {
+	font-weight:bold;
+	color:#5b5bae;
+	font-size:14px;
+}
+
+/* レイアウト定義
+------------------------------------------------- */
+.floatR {
+	float:right;
+}
+.clear {
+	clear:both;
+}
+
+/* マージン設定
+------------------------------------------------- */
+.mt5 {margin-top:5px;}
+.mt10 {margin-top:10px;}
+.mt20 {margin-top:20px;}
+.mt30 {margin-top:30px;}
+.mb5 {margin-bottom:5px;}
+.mb10 {margin-bottom:10px;}
+.mb20 {margin-bottom:20px;}
+.mb30 {margin-bottom:30px;}
+
+/* パディング設定
+------------------------------------------------- */
+.pt5 {padding-top:5px;}
+.pt10 {padding-top:10px;}
+.pt20 {padding-top:20px;}
+.pt30 {padding-top:30px;}
+
+.box {
+ margin-top:10px;
+ margin-bottom:10px;
+}
+
+#close {
+  cursor: pointer;
 }
